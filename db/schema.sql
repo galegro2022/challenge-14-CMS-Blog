@@ -1,0 +1,3 @@
+-- Active: 1673976295424@@127.0.0.1@3306@Blogalog_db
+DROP DATABASE IF EXISTS Blogalog_db;
+CREATE DATABASE Blogalog_db;
