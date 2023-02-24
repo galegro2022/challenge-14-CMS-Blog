@@ -23,6 +23,7 @@ router.get('/login', (req, res) => {
     }
     res.render('login');
 });
+
 //signup
 router.get('/signup', (req, res) => {
     

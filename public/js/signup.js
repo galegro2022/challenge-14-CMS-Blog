@@ -1,14 +1,16 @@
+//sign up form
 const formEl = document.querySelector('#signupForm');
-
+//var source   = document.getElementById("tpl").innerText;
+console.log(formEl)
+console.log("hello world")
 function makeUser(event) {
     event.preventDefault();
-
-    const name = document.querySelector('#name').value.trim();
-    const password = document.querySelector('#password').value.trim();
-
+    console.log("made it to makeUser")
+    const password = document.querySelector('#password').value;
+    const name = document.querySelector('#name').value;
     const newUserObj = {
-        name,
-        password
+        password,
+        name
     }
 
     fetch('/api/users/register', {
